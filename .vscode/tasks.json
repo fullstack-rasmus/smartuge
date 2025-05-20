@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "lint",
+        "type": "shell",
+        "command": "npm run lint",
+        "group": "build"
+      },
+      {
+        "label": "format",
+        "type": "shell",
+        "command": "npm run format",
+        "group": "build"
+      }
+    ]
+  }
+  
